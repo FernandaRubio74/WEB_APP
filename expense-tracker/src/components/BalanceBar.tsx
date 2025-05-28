@@ -14,6 +14,7 @@ export const BalanceBar: React.FC<BalanceBarProps> = ({ totalIncome, totalExpens
   const spent = Math.max(0, totalExpense);
   const percent = totalIncome > 0 ? Math.max(0, Math.min(100, (remaining / totalIncome) * 100)) : 0;
 
+
   const data = {
     labels: ["Disponible", "Gastado"],
     datasets: [
@@ -27,6 +28,13 @@ export const BalanceBar: React.FC<BalanceBarProps> = ({ totalIncome, totalExpens
       },
     ],
   };
+
+  if (totalIncome === 0 && totalExpense === 0) {
+    return (
+      <div className="bg-zinc-900 rounded-xl shadow-lg p-6 border border-zinc-800 flex items-center justify-center h-full">
+        <span className="text-gray-400">No hay transacciones</span>
+      </div>);
+  }
 
   return (
     <div className="bg-zinc-900 rounded-xl shadow-lg p-6 border border-zinc-800 flex flex-col items-center justify-center h-full">
