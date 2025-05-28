@@ -14,11 +14,10 @@ Basic Expense Tracker is a simple web application designed to help users record 
 
 ## Features
 
-- **Expense Recording**: Easily add, edit, and delete expenses
+- **Expense Recording**: Easily add expenses
 - **User-Friendly Interface**: Designed for simplicity and ease of use
 - **Responsive Design**: Works seamlessly on desktop and mobile devices
 - **Real-time Updates**: See your expenses update instantly
-- **Category Management**: Organize expenses by categories
 - **Total Calculation**: Automatic calculation of total expenses
 
 ## Installation
