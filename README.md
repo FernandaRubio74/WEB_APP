@@ -36,7 +36,7 @@ Make sure you have the following installed:
    git clone https://github.com/FernandaRubio74/WEB_APP
 2. Navigate to the project directory:
 	```bash
- 	cd basic-expense-tracker
+ 	cd expense-tracker
 3. Install dependencies:
 	```bash
  	npm install
