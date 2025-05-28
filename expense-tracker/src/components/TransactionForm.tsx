@@ -30,7 +30,7 @@ export const TransactionForm = () => {
         <div className="flex items-center justify-center">
             <form
             onSubmit={handleSubmit}
-            className="bg-zinc-900 p-8 rounded-xl shadow-lg w-full max-w-md flex flex-col justify-between h-auto"
+            className="bg-zinc-900 p-8 rounded-xl shadow-lg w-full flex flex-col justify-between h-auto"
             >
             <h2 className="text-2xl font-bold text-white mb-4 text-center">Agregar Transacción</h2>
             <div>
