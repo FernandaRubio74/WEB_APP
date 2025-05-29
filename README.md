@@ -10,13 +10,12 @@
 
 ## Description
 
-Basic Expense Tracker is a simple web application designed to help users record and manage their expenses. Built with **React** and **TypeScript**, this app is perfect for anyone looking to keep a basic track of their personal finances.
+Basic Expense Tracker is a simple web application designed to help users record and manage their expenses. Built with **React** and **TypeScript**.
 
 ## Features
 
 - **Expense Recording**: Easily add expenses
 - **User-Friendly Interface**: Designed for simplicity and ease of use
-- **Responsive Design**: Works seamlessly on desktop and mobile devices
 - **Real-time Updates**: See your expenses update instantly
 - **Total Calculation**: Automatic calculation of total expenses
 
